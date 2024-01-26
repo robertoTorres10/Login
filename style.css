@@ -1,0 +1,54 @@
+/*
+Cerulean: #086788;
+BlueGreen: #07A0C3;
+Jonquil: #F0C808;
+PapayaWhip: #FFF1D0;
+Rojo: #DD1C1A;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #086788;
+}
+
+.container{
+    border: 5px solid black;
+    border-radius: 12px;
+
+    background-color: #07A0C3;
+
+    height: 640px;
+    width: 460px;
+
+    position: relative;
+    padding: 20px 30px 120px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.loginSection{
+    border: 2px solid red;
+    border-radius: 290px;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: calc(100% + 180px);
+    transform: translateX(-50%);
+    padding: 20px 140px;
+    transition: all 0.6s ease;
+}
